@@ -12,11 +12,6 @@ li a.nav-link:hover {
     color: yellow !important;
 }
 
-ul.navbar{
-    display: flex !important;
-    justify-content: end !important;
-}
-
 .active {
     color: yellow !important;
 }
