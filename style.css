@@ -1,259 +1,52 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-header{
-    background-color: #741b47;
-    height: 107px;
-    color: antiquewhite;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.logo{
-    height: 80px;
+.logo {
     width: 80px;
-    padding: 0px 40px 0px;
+    height: 80px;
+    }
+
+
+li a.nav-link:hover {
+    color: yellow !important;
 }
 
- /* NAVIGATION */
+.active {
+    color: yellow !important;
 
-nav{
-    float: right;
 }
 
-nav ul{
-    list-style: none;
+.coral{
+    background-color: rgb(247, 209, 106);
+ 
+    height: 200vh;
+ 
 }
 
-nav ul li{
-    display: inline-block;
-}
-
-nav a{
-    text-decoration: none;
-    color: #fff;
-    margin: 20px;
-}
-
-nav a:hover{
-    color: #222;
-}
-
-main{
-    background-color: rgb(211, 211, 211);
-    padding: 10px 30px 10px;
-    height: 220vh;
-    font-size: 18pt;    
-}
-
-main.contacto{
-    height:85vh;
-}
-
-h1{
-    font-size: 40pt;
-    color: #fff;
-    text-align: center;
-}
-
-h2{
-    font-size: 30pt;
-    color: #222;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
-}
-
-h4{
-    font-size: 26pt;
-    color: antiquewhite;
-    text-align: center;
-}
-
-div.hero{ 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 70%;
-    height: 500px;
+.hero { 
+    
+    color: aliceblue !important;
     background-image: url(img/HomeBack.jpg);
-    background-color: rgba(0, 0, 0, 0.616);
+    background-color: #0000002f !important;
+    background-repeat: no-repeat;
     background-size: cover;
-    padding: 0px 30px 0px;
-    margin: -10px 15% 50px;
+    margin: 40px 60px 40px;
+    padding: 30px 40px 20px;
+    border: 4px solid black;
 }
 
-.boton {
-    display: inline;
-    background-color: #7f9ec6;
-    color: black;
-    margin: 20px 20px;
-    padding: 10px 20px;
-    border:2px solid black;
-    box-shadow: 2px 2px 4px #222;
+main {
+    height: 120vH;
 }
 
-div .boton a{
-
-    text-decoration: none;
-    justify-content: center;
-}
-
-p{
-    font-size: 14pt;
-    padding: 50px 10px 10px ;
-}
-
-section{
-    display: flex;
-    justify-content: center;
-}
-
-section .slider-discos{
-    justify-content: space-between;
-}
-
-.slider-discos img{
-    width: 200px;
-    height: 200px;
-}
-
-section .audio-service{
-    padding: 20px 10px 10px;
-    flex-wrap: wrap;
-    width: 45%;
+img {
+    width: 100%;
     height: auto;
 }
 
-/* DISCOS*/
-
-main article {
-    display: flex;
-    justify-content: center;
-}
-
-main article div {
-    width: 50%;
-    padding-left: 50px;
-}
-
-main article div h2{
-    padding: 20px 0 20px;
-    text-align: center;
-}
-
-main article div p{
-    font-size: 14pt;
-    padding: 0 20px 40px ;
-}
-
-article img{
+img.art {
+    height: 3oopx;
     width: 300px;
-    height: 300px;
+
 }
 
-h4.more{
-    font-size: 16px;
-    color: blue;
-    text-decoration: underline;
-    float:right
-}
-
-/* ESTUDIO */
-
-section .cajas-estudio{
-    width: 35%;
-    height: 600px;
-    background-color: antiquewhite;
-    text-align: center;
-    border: 6px solid black;
-    margin: 30px 30px 30px;
-}
-
-.cajas-estudio p{
-    font-size: 12pt;
-    padding: 20px 20px 40px;
-}
-
-.cajas-estudio h2{
-    font-size: 20pt;
-    padding-top: 25px;
-}
-
-.cajas-estudio a{
-    text-decoration: none;
-}
-
-article.youtube{    
-    margin-top: 50px;
-    margin-bottom: 70px;
-    background-color: #741b47;
-}
-
-.youtube h2{
-    color: antiquewhite;
-    font-size: 26pt;
-    text-align: center;
-    padding-top: 30px;
-}
-
-a img{
-    width: 50px;
-    height: 50px;
-}
-
-/*  CLASES */
-
-main.coral{
-    background-color: rgb(247, 209, 106);
-    padding: 10px 30px 10px;
-    height: 200vh;
-    font-size: 18pt;
-}
-
-main .clases {
-    display: flex;
-    justify-content: center;
-}
-
-.galeriaclases img{
-    width: 45%;
-    height: auto
-}
-
-/* CONTACTO */
-
-form{
-    padding: 20px 70px 30px;
-    width: 35%;
-    height: calc(100vh -172px -65px);
-}
-
-form input{
-    font-size: 18px;
-    width: 100%;
-}
-
-form textarea{
-    margin-top: 10px;
-}
-
-form #enviar{
-    padding: 10px 20px;
-    width: min-content;
-    background-color: #7f9ec6;
-    border: 2px solid black;
-    box-shadow: 2px 2px 4px #222;
-}
-
-.map{
-    padding-left: 50px;
-}
 
 /* FOOTER  */
 
@@ -283,10 +76,37 @@ footer h3{
 }
 
 footer h4{
+    
     color: antiquewhite;
-    font-size: 18pt;
-    display: flex;
-    align-items: flex-end;
+    font-size: 14pt;
+   
 }
+
+/* ESTUDIO */
+
+.cajas-estudio{
+    
+    background-color: antiquewhite;
+    text-align: center;
+    border: 6px solid black;
+    margin: 30px 30px 30px;
+}
+
+.cajas-estudio p{
+    font-size: 12pt;
+    padding: 20px 20px 40px;
+}
+
+.cajas-estudio h2{
+    font-size: 20pt;
+    padding-top: 25px;
+}
+
+.youtube{
+    
+    background-color: brown;
+}
+
+
 
 

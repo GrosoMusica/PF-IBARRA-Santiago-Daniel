@@ -6,27 +6,49 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="../img/Sello-04.png" type="image/x-icon">
-   
+   <!--{ bootstrap INICIO} -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+   <!--{ bootstrap FIN} -->
     <title>GM Estudio</title>
 </head>
 <body>
     <header>
-        <a href="../index.html"><img class="logo" src="../img/Sello-04.png" alt="Logo GM"></a>        
-       <nav>
-           <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="discos.html">Discos</a></li>
-            <li><a href="estudio.html">Estudio</a></li>
-            <li><a href="clases.html">Clases</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-           
-       </ul></nav>
-
+        
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a href="../index.html"><img class="logo" src="../img/Sello-04.png" alt="Logo GM"></a>
+    
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Discos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="estudio.html">Estudio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="clases.html">Clases</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html"">Contacto</a>
+                  </li>
+                </ul>
+                </div>
+            </div>
+          </nav>
     </header>
     <main class="coral">
-        <article>
-            <img src="../img/afrosounz.jpg" alt="1974 Afrobeat">
-            <div>
+
+       <div class="container">
+        <article class="row d-flex ">
+            <div class="col-sm-6 justify-content-center">
+                <img class="art" src="../img/afrosounz.jpg" alt="1974 Afrobeat">
+            </div>
+            <div class="col-sm-6 text-center">
                 <h2>Afrobeat Soundz(1974)</h2>
                 <p>¡Bienvenidos al vibrante mundo del afrobeat! Sumérgete 
                 en el ritmo y la energía contagiosa de nuestro nuevo disco
@@ -45,8 +67,8 @@
             </div>
         </article>
            
-        <article>
-            <div>
+        <article class="row">
+            <div class="col-sm-6">
                 <h2>TamTam Finicio (2012)</h2>
                 <p> Desde el primer acorde, quedarás hipnotizado por los 
             contagiosos ritmos de percusión, las enérgicas líneas de 
@@ -60,27 +82,53 @@
             verdaderamente único y emocionante para todos los 
             amantes de la música.</p>
             </div>
-            <img src="../img/finicio.jpg" alt="TamTam Afrobeat 2012">
+            <div class="col-sm-6">
+                <img class="art" src="../img/finicio.jpg" alt="TamTam Afrobeat 2012">
+            </div>
         </article>
+       </div>
 
-        
-        <h2>Discos</h2>
+                                         <!-- Slide DISCOS-->
+       <section class="container pt-5">
+        <h2 class="h1 d-flex justify-content-center pb-3">Discos</h2>
 
-        <section class="discos">
+        <div class="row">
+
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <img src="../img/finicio.jpg" alt="TamTam Afrobeat2">
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <img src="../img/Gamelan.jpg" alt="Gamelan">
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <img src="../img/chinoz.jpg" alt="Chinoz">
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <img src="../img/tam1.jpg" alt="TamTam Afrobeat">
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <img src="../img/Combo.jpg" alt="Combo Makabro">
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <img src="../img/finicio.jpg" alt="TamTam Afrobeat2">
+          </div>
+
+                     
+            
+            
+        </div>
+      </section>
+
+
             
         <!-- Acá va un slider con los discos-->  
 
-        <div class="slider-discos">
-
-            <img src="../img/Gamelan.jpg" alt="Gamelan">
-            <img src="../img/chinoz.jpg" alt="Chinoz">
-            <img src="../img/Combo.jpg" alt="Combo Makabro">
-            <img src="../img/tam1.jpg" alt="TamTam Afrobeat">
-            <img src="../img/finicio.jpg" alt="TamTam Afrobeat2">
-        </div>
-        </section>
-
-        <!-- falta vincular con mas discos -->
+     
 
         <h4 class="more">
             más discos
@@ -88,7 +136,7 @@
 
     </main>
 
-    <footer>
+    <footer class="fixed-bottom">
         <section>
             
         <div1>
