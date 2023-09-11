@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="musicas de otres">
     <meta name="keywords" content="discos, music, african music, groove">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -49,13 +50,11 @@
 
     <main class="coral">
 
-      <div class="container">
-
-        <article class="row p-5">
+      <div class="container disco pt3">
+        <article class="disco row p-5">
             <div class="d-flex justify-content-center col-md-6">
-                <img class="art" src="../img/afrosounz.jpg" alt="1974 Afrobeat">
+                <img class="art pb-4" src="../img/afrosounz.jpg" alt="1974 Afrobeat">
             </div>
-
             <div class="col-sm-12 col-md-6 px-5">
                 <h2>Afrobeat Soundz(1974)</h2>
                 <p>¡Bienvenidos al vibrante mundo del afrobeat! Sumérgete 
@@ -75,7 +74,8 @@
             </div>
         </article>
 
-        <article class="row">
+
+        <article class="disco row">
             <div class="col-sm-12 col-md-6 px-5">
                 <h2>TamTam Finicio (2012)</h2>
                 <p> Desde el primer acorde, quedarás hipnotizado por los 
@@ -91,50 +91,60 @@
             amantes de la música.</p>
             </div>
             <div class="d-flex justify-content-center col-sm-6">
-                <img class="art" src="../img/finicio.jpg" alt="TamTam Afrobeat 2012">
+                <img class="art py-4" src="../img/(2012) Finicio.jpg" alt="TamTam Afrobeat 2012">
             </div>
         </article>
       </div>
 
-                      <!-- Slide DISCOS-->
+                                        <!-- Galería de DISCOS-->
 
-      <section class="container pt-5">
-        <h2 class="h1 d-flex justify-content-center pb-3">Discos</h2>
-
-        <div class="row">
-
-          <div class="col-sm-6 col-md-4 col-lg-2">
-            <img src="../img/finicio.jpg" alt="TamTam Afrobeat2">
+      <div class="container mt-5">
+        <div id="miSlider" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col">
+                  <img src="../img/(2012) Finicio.jpg" class="d-block w-100" alt="TamTam Afrobeat 1"></div>
+                <div class="col">
+                  <img src="../img/(2018) Karawitan Argentina.jpg" class="d-block w-100" alt="Gamelan"></div>
+                <div class="col">
+                  <img src="../img/chinoz.jpg" class="d-block w-100" alt="Chinoz"></div>
+                <div class="col">
+                  <img src="../img/(2016) Combo Makabro.jpg" class="d-block w-100" alt="Combo Makabro"></div>
+                <div class="col">
+                  <img src="../img/(2008) TamTam.jpg" class="d-block w-100" alt="TamTam Afrobeat2"></div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col">
+                  <img src="../img/(2014) Como te extraño los Domingos.jpg" class="d-block w-100" alt="CTELD 1"></div>
+                <div class="col">
+                  <img src="../img/(2018) Don Genaro Afrobeat.jpg" class="d-block w-100" alt="DonGenaro Afrobeat"></div>
+                <div class="col">
+                  <img src="../img/(2017) Cuerpos Electricos.png" class="d-block w-100" alt="Los Cuerpos Eléctricos"></div>
+                <div class="col">
+                  <img src="../img/HIPHOP ADVERTISING.jpg" class="d-block w-100" alt="Música para avisos publicitarios"></div>
+                <div class="col">
+                  <img src="../img/PAMPAFOLI - Giles Sessions Artwork.jpg" class="d-block w-100" alt="TT Live">
+                </div>
+              </div>
+            </div>
           </div>
-
-          <div class="col-sm-6 col-md-4 col-lg-2">
-            <img src="../img/Gamelan.jpg" alt="Gamelan">
-          </div>
-
-          <div class="col-sm-6 col-md-4 col-lg-2">
-            <img src="../img/chinoz.jpg" alt="Chinoz">
-          </div>
-
-          <div class="col-sm-6 col-md-4 col-lg-2">
-            <img src="../img/tam1.jpg" alt="TamTam Afrobeat">
-          </div>
-
-          <div class="col-sm-6 col-md-4 col-lg-2">
-            <img src="../img/Combo.jpg" alt="Combo Makabro">
-          </div>
-
-          <div class="col-sm-6 col-md-4 col-lg-2">
-            <img src="../img/finicio.jpg" alt="TamTam Afrobeat2">
-          </div>                                
-            
+          <a class="carousel-control-prev" href="#miSlider" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#miSlider" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </a>
         </div>
-      </section>      
-          
-        <a href="#">
-            <h4 class="more">
-              <-- más discos 
-            </h4>
-        </a>
+      </div>
+    
+
+
+        
     </main>
 
                     <!-- Footer -->

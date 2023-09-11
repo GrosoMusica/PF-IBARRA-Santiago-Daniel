@@ -5,19 +5,22 @@
 $fondo1: rgb(247, 209, 106)
 $fondo2: azure
 
+// Elements
 
+@import sass-elements/_hero
 
-@import _cajas-estudio
+@import sass-elements/_cajas-estudio
 
-@import _footer
+@import sass-elements/_footer
 
+@import sass-elements/_box-radial
 
-
-
+@import sass-elements/_btn-animation
 
 *
     margin: 0
     padding: 0
+
 
 // NAV - Logo
 
@@ -25,74 +28,32 @@ $fondo2: azure
     width: 80px
     height: 80px
 
+.logo:hover
+    transform: scale(1.1) !important
+
 li a.nav-link:hover 
     color: yellow
 
 .active
     color: yellow !important
-        
-    
 
-
-
-
-
-
-// HOME - ESTUDIO - CONTACTO  
-
-
+// BG
 
 main 
     background-color: $fondo2
     height: calc(100vH + 340px)
 
-
-.hero 
-    color: aliceblue !important
-    background-image: url(img/HomeBack.jpg)
-    background-color: #0000002f !important
-    background-repeat: no-repeat
-    background-size: cover
-    margin: 40px 60px 40px
-    padding: 30px 40px 20px
-    border: 4px solid black
+.coral
+    background-color: $fondo1 !important
+    height: calc(100vh + 700px)
 
 
-
-
-
-
-
-// DISCOS - CLASES 
-
+// img DISCOS
 
 .art
     height: 3oopx
     width: 300px
 
-
-    
-
-
-
-.coral
-    background-color: $fondo1 !important
-    height: calc(100vh + 900px + 80px)
-
 img 
     width: 100%
     height: auto
-
-
-
-.youtube
-    background-color: brown
-
-
-
-
-
-
-
-
-
