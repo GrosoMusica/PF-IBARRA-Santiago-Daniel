@@ -5,34 +5,50 @@
 $fondo1: rgb(247, 209, 106)
 $fondo2: azure
 
-* 
+
+
+@import _cajas-estudio
+
+@import _footer
+
+
+
+
+
+*
     margin: 0
     padding: 0
 
+// NAV - Logo
 
 .logo 
     width: 80px
     height: 80px
 
-li a.nav-link:hover
-    color yellow
+li a.nav-link:hover 
+    color: yellow
 
-active 
-    color yellow
+.active
+    color: yellow !important
+        
+    
+
+
 
 
 
 
 // HOME - ESTUDIO - CONTACTO  
 
+
+
 main 
     background-color: $fondo2
-    height: calc(100vH+100px)
+    height: calc(100vH + 340px)
 
-// HOME 
 
-hero 
-    color aliceblue: !important
+.hero 
+    color: aliceblue !important
     background-image: url(img/HomeBack.jpg)
     background-color: #0000002f !important
     background-repeat: no-repeat
@@ -41,32 +57,37 @@ hero
     padding: 30px 40px 20px
     border: 4px solid black
 
+
+
+
+
+
+
 // DISCOS - CLASES 
 
-coral
+
+.art
+    height: 3oopx
+    width: 300px
+
+
+    
+
+
+
+.coral
     background-color: $fondo1 !important
-    height: calc(100vh+100px)
+    height: calc(100vh + 900px + 80px)
 
 img 
     width: 100%
     height: auto
 
-art 
-    height: 3oopx
-    width: 300px
 
 
+.youtube
+    background-color: brown
 
-
-
-youtube
-    background-color: brown;
-    
-    
-@import _cajas-estudio;
-
-
-@import _footer
 
 
 
