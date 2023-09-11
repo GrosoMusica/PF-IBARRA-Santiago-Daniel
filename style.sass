@@ -2,17 +2,17 @@
 
 // Backgrond Color Pages
 
-$fondo1 rgb(247, 209, 106)
-$fondo2 azure
+$fondo1: rgb(247, 209, 106)
+$fondo2: azure
 
-*
-    margin 0
-    padding 0
+* 
+    margin: 0
+    padding: 0
 
 
-logo 
-    width 80px
-    height 80px;
+.logo 
+    width: 80px
+    height: 80px
 
 li a.nav-link:hover
     color yellow
@@ -26,54 +26,44 @@ active
 // HOME - ESTUDIO - CONTACTO  
 
 main 
-    background-color $fondo2
-    height calc(100vH+100px)
+    background-color: $fondo2
+    height: calc(100vH+100px)
 
 // HOME 
 
 hero 
-    color aliceblue !important
-    background-image url(img/HomeBack.jpg)
-    background-color #0000002f !important
-    background-repeat no-repeat
-    background-size cover
-    margin 40px 60px 40px
-    padding 30px 40px 20px
-    border 4px solid black
+    color aliceblue: !important
+    background-image: url(img/HomeBack.jpg)
+    background-color: #0000002f !important
+    background-repeat: no-repeat
+    background-size: cover
+    margin: 40px 60px 40px
+    padding: 30px 40px 20px
+    border: 4px solid black
 
 // DISCOS - CLASES 
 
 coral
-    background-color $fondo1 !important
-    height calc(100vh+100px)
+    background-color: $fondo1 !important
+    height: calc(100vh+100px)
 
 img 
-    width 100%
-    height auto
+    width: 100%
+    height: auto
 
 art 
-    height 3oopx
-    width 300px
+    height: 3oopx
+    width: 300px
 
-cajas-estudio 
-    @include cajas-estudio
 
-@mixin cajas-estudio 
 
-    background-image linear-gradient(red, coral)
-    text-align center
-    border 6px solid black
-    margin 30px 30px 30px
-    h2
-        font-size 20pt
-        padding-top 25px
-    p
-        font-size 12pt
-        padding 20px 20px 40px
 
 
 youtube
-    background-color brown
+    background-color: brown;
+    
+    
+@import _cajas-estudio;
 
 
 @import _footer
