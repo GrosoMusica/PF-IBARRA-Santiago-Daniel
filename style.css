@@ -9,6 +9,19 @@
   border: 4px solid black;
 }
 
+article.disco {
+  display: flex;
+  justify-content: center;
+}
+article.disco .art {
+  height: 350px;
+  width: 350px;
+  border: 5px solid black;
+}
+article.disco .text-album {
+  border: 1px solid black;
+}
+
 .cajas-estudio {
   background-image: linear-gradient(yellow, coral);
   text-align: center;
@@ -91,11 +104,6 @@ main {
 .coral {
   background-color: rgb(247, 209, 106) !important;
   height: calc(100vh + 700px);
-}
-
-.art {
-  height: 3oopx;
-  width: 300px;
 }
 
 img {

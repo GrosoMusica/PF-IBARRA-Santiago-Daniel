@@ -1,0 +1,11 @@
+
+
+
+article.disco {
+    display: flex;
+    
+    justify-content: center;
+
+
+    border: 3px solid black;
+}
