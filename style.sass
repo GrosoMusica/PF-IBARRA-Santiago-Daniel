@@ -22,8 +22,6 @@ $fondo2: azure
 @import sass-elements/_galeria-clases
 
 
-
-
 *
     margin: 0
     padding: 0
@@ -48,11 +46,13 @@ li a.nav-link:hover
 
 main 
     background-color: $fondo2
-    height: calc(100vH + 340px)
+    height: auto
 
 .coral
     background-color: $fondo1 !important
-    height: calc(100vh + 700px)
+    height: auto
+
+
 
 
 // img DISCOS
@@ -64,5 +64,11 @@ img
 .youtube
     background: brown
 
+.audio
+    max-width: 100%
+
+@media (max-width: 992px)
+  #home-img 
+    display: none
 
 
