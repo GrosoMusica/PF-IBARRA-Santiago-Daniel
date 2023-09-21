@@ -1,9 +1,17 @@
 
 
-// Backgrond Color Pages
+// Backgrond Color //
 
 $fondo1: rgb(247, 209, 106)
 $fondo2: azure
+
+
+// FONTS //
+
+$font1: 'Oswald', sans-serif
+$font2: 'Poppins', sans-serif
+$font3: 'Montserrat', sans-serif
+
 
 // Elements
 
@@ -22,10 +30,14 @@ $fondo2: azure
 @import sass-elements/_galeria-clases
 
 
+
 *
     margin: 0
     padding: 0
 
+    font-family: $font3
+
+    
 
 // NAV - Logo
 
@@ -50,25 +62,27 @@ main
 
 .coral
     background-color: $fondo1 !important
+    width: 100%
     height: auto
 
 
 
 
-// img DISCOS
+// img  home //
 
 img 
     width: 100%
     height: auto
 
-.youtube
-    background: brown
+iframe 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7)
 
-.audio
-    max-width: 100%
+
 
 @media (max-width: 992px)
+
   #home-img 
     display: none
+
 
 

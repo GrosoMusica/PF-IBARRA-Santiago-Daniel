@@ -1,5 +1,5 @@
 
-// Galería Clases //
+// Galería Clases // 
 
 
 .galery-container
@@ -17,7 +17,10 @@
     height: 100%
     border: 3px solid black
     object-fit: cover
-    transition: transform 0.2s
+    opacity: 0.7
+    filter: grayscale(100%)
+    transition: 0.4s
+    
 
   
 .galery__item:nth-child(1) 
@@ -36,14 +39,10 @@
 // Animación Imagenes //
 
 .galery__img:hover
-    transform: scale(1.1)
-    transition: transform 0.6s
-
-
-
-
-
-
+    opacity: 1
+    filter: grayscale(0%)
+    transition: 0.7s
+    
 
 // RESPONSIVE //
 
